@@ -1,8 +1,8 @@
 <?php
 
- require_once 'database.php';
+//  require_once 'database.php';
 
- use Database;
+//  use Database;
 
 class ProductsTable {
     
