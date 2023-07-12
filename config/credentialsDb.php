@@ -1,7 +1,6 @@
 <?php
-    define('DB_HOST', 'PMYSQL170.dns-servicio.com:3306');
-    define('DB_USER', 'Go-Up-Cloud
-    ');
-    define('DB_PASS', 'Goup456?');
-    define('DB_NAME', '9951491_icarwash');
+    define('DB_HOST', 'containers-us-west-129.railway.app');
+    define('DB_USER', 'root');
+    define('DB_PASS', 'HI8OIRqZdpanOlfXd5cu');
+    define('DB_NAME', 'railway');
 ?>
