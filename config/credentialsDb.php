@@ -1,6 +1,6 @@
 <?php
-    define('DB_HOST', getenv('DB_HOST'));
-    define('DB_USER', getenv('DB_USER'));
-    define('DB_PASS', getenv('DB_PASS'));
-    define('DB_NAME', getenv('DB_NAME'));
+    define('DB_HOST', 'PMYSQL170.dns-servicio.com:3306');
+    define('DB_USER', 'Go-Up-Cloud');
+    define('DB_PASS', 'Goup456?.');
+    define('DB_NAME', '9951491_icarwash');
 ?>
