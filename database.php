@@ -6,15 +6,20 @@
 class Database
 {
     // Declaración de las credenciales necesarias para la conexión a la base de datos
-    protected $db_host = DB_HOST;
-    protected $db_user = DB_USER;
-    protected $db_pass = DB_PASS;
-    protected $db_name = DB_NAME;
+    protected $db_host;
+    protected $db_user;
+    protected $db_pass;
+    protected $db_name;
 
     protected $connection;
 
     public function __construct()
     {
+        $this->db_host = getenv('DB_HOST');
+        $this->db_user = getenv('DB_USER');
+        $this->db_pass = getenv('DB_PASS');
+        $this->db_name = getenv('DB_NAME');
+        
         $this->connection();
     }
 
